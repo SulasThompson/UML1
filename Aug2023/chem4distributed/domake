@@ -1,0 +1,10 @@
+#!/usr/bin/bash
+
+if [ ! -d "./chem4dist-build" ]; then
+  mkdir chem4dist-build
+fi
+cd chem4dist-build
+
+cmake -DGeant4_DIR= /home/dthompson/geant4-v.11.1.1-install/lib/Geant11.1.1 ../ 
+
+make

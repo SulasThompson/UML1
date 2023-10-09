@@ -1,0 +1,14 @@
+/home/dthompson/Aug2023/chem4alpha/chem4alpha-build/CMakeFiles/install/strip.dir
+/home/dthompson/Aug2023/chem4alpha/chem4alpha-build/CMakeFiles/install/local.dir
+/home/dthompson/Aug2023/chem4alpha/chem4alpha-build/CMakeFiles/install.dir
+/home/dthompson/Aug2023/chem4alpha/chem4alpha-build/CMakeFiles/list_install_components.dir
+/home/dthompson/Aug2023/chem4alpha/chem4alpha-build/CMakeFiles/rebuild_cache.dir
+/home/dthompson/Aug2023/chem4alpha/chem4alpha-build/CMakeFiles/edit_cache.dir
+/home/dthompson/Aug2023/chem4alpha/chem4alpha-build/CMakeFiles/chem4.dir
+/home/dthompson/Aug2023/chem4alpha/chem4alpha-build/plot/CMakeFiles/install/local.dir
+/home/dthompson/Aug2023/chem4alpha/chem4alpha-build/plot/CMakeFiles/install.dir
+/home/dthompson/Aug2023/chem4alpha/chem4alpha-build/plot/CMakeFiles/list_install_components.dir
+/home/dthompson/Aug2023/chem4alpha/chem4alpha-build/plot/CMakeFiles/rebuild_cache.dir
+/home/dthompson/Aug2023/chem4alpha/chem4alpha-build/plot/CMakeFiles/edit_cache.dir
+/home/dthompson/Aug2023/chem4alpha/chem4alpha-build/plot/CMakeFiles/install/strip.dir
+/home/dthompson/Aug2023/chem4alpha/chem4alpha-build/plot/CMakeFiles/plotG.dir

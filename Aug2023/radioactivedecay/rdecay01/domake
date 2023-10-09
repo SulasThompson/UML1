@@ -1,0 +1,10 @@
+#!/usr/bin/bash
+
+if [ ! -d "./rdecay01-build" ]; then
+  mkdir rdecay01-build
+fi
+cd rdecay01-build
+
+cmake -DGeant4_DIR= /home/dthompson/geant4-v.11.1.1-install/lib/Geant11.1.1 ../ 
+
+make
