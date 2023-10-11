@@ -52,6 +52,11 @@
 #include "G4PhysicsConstructorRegistry.hh"
 #include "CommandLineParser.hh"
 #include "G4EmParameters.hh"
+#include "G4DNADingfelderChargeDecreaseModel.hh"
+#include "G4DNAIonElasticModel.hh"
+#include "G4DNAMillerGreenExcitationModel.hh"
+#include "G4DNARuddIonisationExtendedModel.hh"
+#include "G4DNARuddIonisationModel.hh"
 
 using namespace G4DNAPARSER;
 
@@ -84,7 +89,6 @@ PhysicsList::~PhysicsList()
   delete fEmDNAPhysicsList;
   delete fEmDNAChemistryList;
   delete fEmDNAChemistryList1;
-}
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
