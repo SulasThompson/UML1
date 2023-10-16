@@ -1,0 +1,7 @@
+/home/dthompson/Dropbox/UML1/Aug2023/microdosimetry/microdosimetry-build/CMakeFiles/install/strip.dir
+/home/dthompson/Dropbox/UML1/Aug2023/microdosimetry/microdosimetry-build/CMakeFiles/install/local.dir
+/home/dthompson/Dropbox/UML1/Aug2023/microdosimetry/microdosimetry-build/CMakeFiles/install.dir
+/home/dthompson/Dropbox/UML1/Aug2023/microdosimetry/microdosimetry-build/CMakeFiles/list_install_components.dir
+/home/dthompson/Dropbox/UML1/Aug2023/microdosimetry/microdosimetry-build/CMakeFiles/rebuild_cache.dir
+/home/dthompson/Dropbox/UML1/Aug2023/microdosimetry/microdosimetry-build/CMakeFiles/edit_cache.dir
+/home/dthompson/Dropbox/UML1/Aug2023/microdosimetry/microdosimetry-build/CMakeFiles/microdosimetry.dir
