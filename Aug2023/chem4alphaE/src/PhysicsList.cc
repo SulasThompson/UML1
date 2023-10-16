@@ -89,7 +89,7 @@ PhysicsList::~PhysicsList()
   delete fEmDNAPhysicsList;
   delete fEmDNAChemistryList;
   delete fEmDNAChemistryList1;
-
+}
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 void PhysicsList::ConstructParticle()
@@ -161,7 +161,11 @@ void PhysicsList::RegisterConstructor(const G4String& name)
     if(fEmDNAChemistryList || fEmDNAChemistryList1) { return; }
     fEmDNAChemistryList1 = new G4EmDNAChemistry_option1();
     fEmDNAChemistryList1->SetVerboseLevel(verboseLevel);
-  } else {
+} 
+//// Diana added here //
+////// End Diana add//
+
+else {
     G4cout << "PhysicsList::RegisterConstructor: <" << name << ">"
            << " fails - name is not defined"
            << G4endl;    

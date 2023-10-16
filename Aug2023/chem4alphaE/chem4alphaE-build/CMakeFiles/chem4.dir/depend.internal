@@ -7,7 +7,7 @@ CMakeFiles/chem4.dir/chem4.cc.o
  ../include/DetectorConstruction.hh
  ../include/PhysicsList.hh
  ../include/ScoreSpecies.hh
- /home/dthompson/Aug2023/chem4alphaE/chem4.cc
+ /home/dthompson/Dropbox/UML1/Aug2023/chem4alphaE/chem4.cc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Geometry/Plane3D.h
@@ -441,7 +441,7 @@ CMakeFiles/chem4.dir/src/ActionInitialization.cc.o
  ../include/RunAction.hh
  ../include/StackingAction.hh
  ../include/TrackingAction.hh
- /home/dthompson/Aug2023/chem4alphaE/src/ActionInitialization.cc
+ /home/dthompson/Dropbox/UML1/Aug2023/chem4alphaE/src/ActionInitialization.cc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Units/PhysicalConstants.h
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Units/SystemOfUnits.h
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Utility/defs.h
@@ -589,7 +589,7 @@ CMakeFiles/chem4.dir/src/ActionInitialization.cc.o
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/trkdefs.hh
 CMakeFiles/chem4.dir/src/CommandLineParser.cc.o
  ../include/CommandLineParser.hh
- /home/dthompson/Aug2023/chem4alphaE/src/CommandLineParser.cc
+ /home/dthompson/Dropbox/UML1/Aug2023/chem4alphaE/src/CommandLineParser.cc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4EnvironmentUtils.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Exception.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ExceptionSeverity.hh
@@ -606,7 +606,7 @@ CMakeFiles/chem4.dir/src/DetectorConstruction.cc.o
  ../include/DetectorMessenger.hh
  ../include/PrimaryKiller.hh
  ../include/ScoreSpecies.hh
- /home/dthompson/Aug2023/chem4alphaE/src/DetectorConstruction.cc
+ /home/dthompson/Dropbox/UML1/Aug2023/chem4alphaE/src/DetectorConstruction.cc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Geometry/Plane3D.h
@@ -928,7 +928,7 @@ CMakeFiles/chem4.dir/src/DetectorMessenger.cc.o
  ../include/DetectorConstruction.hh
  ../include/DetectorMessenger.hh
  ../include/ScoreSpecies.hh
- /home/dthompson/Aug2023/chem4alphaE/src/DetectorMessenger.cc
+ /home/dthompson/Dropbox/UML1/Aug2023/chem4alphaE/src/DetectorMessenger.cc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -1069,11 +1069,62 @@ CMakeFiles/chem4.dir/src/DetectorMessenger.cc.o
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/trkdefs.hh
 CMakeFiles/chem4.dir/src/PhysicsList.cc.o
  ../include/CommandLineParser.hh
+ ../include/G4DNADingfelderChargeDecreaseModel.hh
+ ../include/G4DNAIonElasticModel.hh
+ ../include/G4DNAMillerGreenExcitationModel.hh
+ ../include/G4DNARuddIonisationExtendedModel.hh
+ ../include/G4DNARuddIonisationModel.hh
  ../include/PhysicsList.hh
- /home/dthompson/Aug2023/chem4alphaE/src/PhysicsList.cc
+ /home/dthompson/Dropbox/UML1/Aug2023/chem4alphaE/src/PhysicsList.cc
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/DualRand.h
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/JamesRandom.h
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/MTwistEngine.h
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/MixMaxRng.h
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/RandBinomial.h
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/RandBinomial.icc
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/RandBit.h
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/RandBit.icc
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/RandBreitWigner.h
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/RandBreitWigner.icc
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/RandChiSquare.h
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/RandChiSquare.icc
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/RandExpZiggurat.h
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/RandExponential.h
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/RandExponential.icc
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/RandFlat.h
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/RandFlat.icc
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/RandGamma.h
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/RandGamma.icc
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/RandGauss.h
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/RandGauss.icc
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/RandGaussQ.h
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/RandGaussQ.icc
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/RandGaussZiggurat.h
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/RandGeneral.h
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/RandGeneral.icc
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/RandLandau.h
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/RandLandau.icc
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/RandPoisson.h
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/RandPoisson.icc
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/RandPoissonQ.h
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/RandPoissonQ.icc
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/RandStudentT.h
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/RandStudentT.icc
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/Random.h
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/Random.icc
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/RandomEngine.h
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/RandomEngine.icc
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/Randomize.h
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/RanecuEngine.h
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/Ranlux64Engine.h
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/RanluxEngine.h
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/RanluxppEngine.h
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/RanshiEngine.h
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Units/PhysicalConstants.h
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Units/SystemOfUnits.h
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Utility/defs.h
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Utility/memory.h
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Utility/thread_local.h
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Vector/AxisAngle.h
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Vector/AxisAngle.icc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Vector/LorentzVector.h
@@ -1092,16 +1143,23 @@ CMakeFiles/chem4.dir/src/PhysicsList.cc.o
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Vector/ThreeVector.icc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Allocator.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4AllocatorPool.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4AtomicShell.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4AtomicShellEnumerator.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4AutoLock.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Backtrace.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Cache.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4CacheDetails.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DNACrossSectionDataSet.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DNAGenericIonsManager.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DNAModelSubType.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DNAWaterExcitationStructure.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DNAWaterIonisationStructure.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DataVector.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DataVector.icc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DensityEffectCalculator.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DynamicParticle.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DynamicParticle.icc
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Electron.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ElectronOccupancy.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Element.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ElementTable.hh
@@ -1117,19 +1175,24 @@ CMakeFiles/chem4.dir/src/PhysicsList.cc.o
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4EmDNAPhysics_option6.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4EmDNAPhysics_option7.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4EmDNAPhysics_option8.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4EmElementSelector.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4EmFluoDirectory.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4EmParameters.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4EmSaturation.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4EnvironmentUtils.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Exception.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ExceptionSeverity.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Exp.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4GeomSplitter.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4GlobalConfig.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ICRU90StoppingData.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4IonisParamElm.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4IonisParamMat.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Ions.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Isotope.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4IsotopeVector.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Log.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4LogLogInterpolation.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4LogicalVolume.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4LogicalVolume.icc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4LorentzVector.hh
@@ -1141,9 +1204,13 @@ CMakeFiles/chem4.dir/src/PhysicsList.cc.o
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4MaterialPropertyVector.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4MaterialTable.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4MscStepLimitType.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4NistElementBuilder.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4NistManager.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4NistMaterialBuilder.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4NuclearFormfactorType.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4OrderedTable.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4PDefManager.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ParticleChangeForGamma.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ParticleDefinition.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ParticleDefinition.icc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ParticleMomentum.hh
@@ -1154,19 +1221,23 @@ CMakeFiles/chem4.dir/src/PhysicsList.cc.o
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4PhysicsFreeVector.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4PhysicsListHelper.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4PhysicsListOrderingParameter.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4PhysicsLogVector.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4PhysicsModelCatalog.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4PhysicsVector.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4PhysicsVector.icc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4PhysicsVectorType.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Pow.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ProductionCuts.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ProductionCutsTable.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Profiler.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Profiler.icc
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Proton.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ReferenceCountedHandle.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Region.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Region.icc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4RotationMatrix.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4SandiaTable.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ShellEMDataSet.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Step.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Step.icc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4StepPoint.hh
@@ -1185,7 +1256,15 @@ CMakeFiles/chem4.dir/src/PhysicsList.cc.o
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4TrackStatus.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4TrackVector.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Types.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VAtomDeexcitation.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VDataSetAlgorithm.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VEMDataSet.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VEmAngularDistribution.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VEmFluctuationModel.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VEmModel.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VModularPhysicsList.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VParticleChange.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VParticleChange.icc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VPhysicalVolume.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VPhysicalVolume.icc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VPhysicsConstructor.hh
@@ -1199,6 +1278,7 @@ CMakeFiles/chem4.dir/src/PhysicsList.cc.o
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/PTL/Globals.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/PTL/Types.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/PTL/Utility.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/Randomize.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/geomdefs.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/geomwdefs.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/globals.hh
@@ -1211,7 +1291,7 @@ CMakeFiles/chem4.dir/src/PrimaryGeneratorAction.cc.o
  ../include/DetectorConstruction.hh
  ../include/PrimaryGeneratorAction.hh
  ../include/ScoreSpecies.hh
- /home/dthompson/Aug2023/chem4alphaE/src/PrimaryGeneratorAction.cc
+ /home/dthompson/Dropbox/UML1/Aug2023/chem4alphaE/src/PrimaryGeneratorAction.cc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -1483,7 +1563,7 @@ CMakeFiles/chem4.dir/src/PrimaryGeneratorAction.cc.o
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/trkgdefs.hh
 CMakeFiles/chem4.dir/src/PrimaryKiller.cc.o
  ../include/PrimaryKiller.hh
- /home/dthompson/Aug2023/chem4alphaE/src/PrimaryKiller.cc
+ /home/dthompson/Dropbox/UML1/Aug2023/chem4alphaE/src/PrimaryKiller.cc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -1751,7 +1831,7 @@ CMakeFiles/chem4.dir/src/Run.cc.o
  ../include/Run.hh
  ../include/RunAction.hh
  ../include/ScoreSpecies.hh
- /home/dthompson/Aug2023/chem4alphaE/src/Run.cc
+ /home/dthompson/Dropbox/UML1/Aug2023/chem4alphaE/src/Run.cc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -2023,7 +2103,7 @@ CMakeFiles/chem4.dir/src/RunAction.cc.o
  ../include/Run.hh
  ../include/RunAction.hh
  ../include/ScoreSpecies.hh
- /home/dthompson/Aug2023/chem4alphaE/src/RunAction.cc
+ /home/dthompson/Dropbox/UML1/Aug2023/chem4alphaE/src/RunAction.cc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -2294,7 +2374,7 @@ CMakeFiles/chem4.dir/src/RunAction.cc.o
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/trkgdefs.hh
 CMakeFiles/chem4.dir/src/ScoreSpecies.cc.o
  ../include/ScoreSpecies.hh
- /home/dthompson/Aug2023/chem4alphaE/src/ScoreSpecies.cc
+ /home/dthompson/Dropbox/UML1/Aug2023/chem4alphaE/src/ScoreSpecies.cc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Geometry/Normal3D.h
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -2619,7 +2699,7 @@ CMakeFiles/chem4.dir/src/ScoreSpecies.cc.o
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/trkgdefs.hh
 CMakeFiles/chem4.dir/src/StackingAction.cc.o
  ../include/StackingAction.hh
- /home/dthompson/Aug2023/chem4alphaE/src/StackingAction.cc
+ /home/dthompson/Dropbox/UML1/Aug2023/chem4alphaE/src/StackingAction.cc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Units/PhysicalConstants.h
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Units/SystemOfUnits.h
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Utility/defs.h
@@ -2734,7 +2814,7 @@ CMakeFiles/chem4.dir/src/StackingAction.cc.o
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/trkdefs.hh
 CMakeFiles/chem4.dir/src/TrackingAction.cc.o
  ../include/TrackingAction.hh
- /home/dthompson/Aug2023/chem4alphaE/src/TrackingAction.cc
+ /home/dthompson/Dropbox/UML1/Aug2023/chem4alphaE/src/TrackingAction.cc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Units/PhysicalConstants.h
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Units/SystemOfUnits.h
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Utility/defs.h

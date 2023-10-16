@@ -1,4 +1,4 @@
-# Install script for directory: /home/dthompson/Aug2023/chem4alphaE
+# Install script for directory: /home/dthompson/Dropbox/UML1/Aug2023/chem4alphaE
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/dthompson/Aug2023/chem4alphaE/chem4alphaE-build/plot/cmake_install.cmake")
+  include("/home/dthompson/Dropbox/UML1/Aug2023/chem4alphaE/chem4alphaE-build/plot/cmake_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/chem4"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/dthompson/Aug2023/chem4alphaE/chem4alphaE-build/chem4")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/dthompson/Dropbox/UML1/Aug2023/chem4alphaE/chem4alphaE-build/chem4")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/chem4" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/chem4")
     file(RPATH_CHANGE
@@ -70,5 +70,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/dthompson/Aug2023/chem4alphaE/chem4alphaE-build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/dthompson/Dropbox/UML1/Aug2023/chem4alphaE/chem4alphaE-build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

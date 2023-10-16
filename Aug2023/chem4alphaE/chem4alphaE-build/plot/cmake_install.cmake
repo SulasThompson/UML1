@@ -1,4 +1,4 @@
-# Install script for directory: /home/dthompson/Aug2023/chem4alphaE/plot
+# Install script for directory: /home/dthompson/Dropbox/UML1/Aug2023/chem4alphaE/plot
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/plotG"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/dthompson/Aug2023/chem4alphaE/chem4alphaE-build/plot/plotG")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/dthompson/Dropbox/UML1/Aug2023/chem4alphaE/chem4alphaE-build/plot/plotG")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/plotG" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/plotG")
     file(RPATH_CHANGE

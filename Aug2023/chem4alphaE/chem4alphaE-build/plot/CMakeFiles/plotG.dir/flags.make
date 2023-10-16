@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++14 -pipe -fsigned-char -pthread    -std=c++14 -pipe -fsign
 
 CXX_DEFINES = -DUSE_ROOT
 
-CXX_INCLUDES = -I/home/dthompson/root-6.28.02-install/include -I/home/dthompson/Aug2023/chem4alphaE/plot -I/home/dthompson/Aug2023/chem4alphaE/plot/include 
+CXX_INCLUDES = -I/home/dthompson/root-6.28.02-install/include -I/home/dthompson/Dropbox/UML1/Aug2023/chem4alphaE/plot -I/home/dthompson/Dropbox/UML1/Aug2023/chem4alphaE/plot/include 
 
