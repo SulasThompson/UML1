@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/dthompson/Dropbox/UML1/Aug2023/microdosimetry/microdosimetry-build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_ddb4d/fast && /usr/bin/make -f CMakeFiles/cmTC_ddb4d.dir/build.make CMakeFiles/cmTC_ddb4d.dir/build
+Run Build Command(s):/usr/bin/make cmTC_3a26a/fast && /usr/bin/make -f CMakeFiles/cmTC_3a26a.dir/build.make CMakeFiles/cmTC_3a26a.dir/build
 make[1]: Entering directory '/mnt/c/Users/sulas/Dropbox/UML1/Aug2023/microdosimetry/microdosimetry-build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ddb4d.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_ddb4d.dir/src.c.o   -c /home/dthompson/Dropbox/UML1/Aug2023/microdosimetry/microdosimetry-build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_ddb4d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddb4d.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_ddb4d.dir/src.c.o  -o cmTC_ddb4d 
-/usr/bin/ld: CMakeFiles/cmTC_ddb4d.dir/src.c.o: in function `main':
+Building C object CMakeFiles/cmTC_3a26a.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_3a26a.dir/src.c.o   -c /home/dthompson/Dropbox/UML1/Aug2023/microdosimetry/microdosimetry-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3a26a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a26a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_3a26a.dir/src.c.o  -o cmTC_3a26a 
+/usr/bin/ld: CMakeFiles/cmTC_3a26a.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_ddb4d.dir/build.make:87: cmTC_ddb4d] Error 1
+make[1]: *** [CMakeFiles/cmTC_3a26a.dir/build.make:87: cmTC_3a26a] Error 1
 make[1]: Leaving directory '/mnt/c/Users/sulas/Dropbox/UML1/Aug2023/microdosimetry/microdosimetry-build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_ddb4d/fast] Error 2
+make: *** [Makefile:121: cmTC_3a26a/fast] Error 2
 
 
 Source file was:

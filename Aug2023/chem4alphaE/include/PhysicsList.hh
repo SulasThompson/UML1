@@ -53,7 +53,7 @@ class PhysicsList: public G4VModularPhysicsList
 
     void ConstructParticle() override;
     void ConstructProcess() override;
-
+    void ConstructEM();
     void RegisterConstructor(const G4String& name);
 
   private:

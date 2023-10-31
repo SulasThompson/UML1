@@ -1076,6 +1076,12 @@ CMakeFiles/chem4.dir/src/PhysicsList.cc.o
  ../include/G4DNARuddIonisationModel.hh
  ../include/PhysicsList.hh
  /home/dthompson/Dropbox/UML1/Aug2023/chem4alphaE/src/PhysicsList.cc
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Geometry/Normal3D.h
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Geometry/Point3D.h
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Geometry/Transform3D.h
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Geometry/Transform3D.icc
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Geometry/Vector3D.h
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/DualRand.h
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/JamesRandom.h
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Random/MTwistEngine.h
@@ -1141,22 +1147,61 @@ CMakeFiles/chem4.dir/src/PhysicsList.cc.o
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Vector/RotationZ.icc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Vector/ThreeVector.h
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/CLHEP/Vector/ThreeVector.icc
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ASTARStopping.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4AffineTransform.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4AffineTransform.icc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Allocator.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4AllocatorPool.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ApplicationState.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4AtomicShell.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4AtomicShellEnumerator.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4AutoLock.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4AuxiliaryNavServices.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4AuxiliaryNavServices.icc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Backtrace.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4BetheBlochIonGasModel.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4BetheBlochModel.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4BlockingList.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4BlockingList.icc
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4BraggIonGasModel.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4BraggIonModel.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4BraggModel.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Cache.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4CacheDetails.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4CoulombScattering.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DNAAttachment.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DNABornExcitationModel.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DNABornExcitationModel1.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DNABornExcitationModel2.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DNABornIonisationModel.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DNABornIonisationModel1.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DNABornIonisationModel2.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DNAChampionElasticModel.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DNAChargeDecrease.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DNAChargeIncrease.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DNAChemistryManager.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DNACrossSectionDataSet.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DNADingfelderChargeIncreaseModel.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DNAElastic.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DNAElectronSolvation.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DNAExcitation.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DNAGenericIonsManager.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DNAIonisation.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DNAMeltonAttachmentModel.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DNAModelSubType.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DNAMolecularMaterial.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DNAOneStepThermalizationModel.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DNAOneStepThermalizationModel.hpp
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DNASancheExcitationModel.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DNAScreenedRutherfordElasticModel.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DNATransformElectronModel.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DNAVibExcitation.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DNAWaterExcitationStructure.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DNAWaterIonisationStructure.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DataVector.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DataVector.icc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DensityEffectCalculator.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DummyModel.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DynamicParticle.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4DynamicParticle.icc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Electron.hh
@@ -1164,6 +1209,7 @@ CMakeFiles/chem4.dir/src/PhysicsList.cc.o
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Element.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ElementTable.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ElementVector.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4EmConfigurator.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4EmDNAChemistry.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4EmDNAChemistry_option1.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4EmDNAPhysics.hh
@@ -1175,17 +1221,32 @@ CMakeFiles/chem4.dir/src/PhysicsList.cc.o
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4EmDNAPhysics_option6.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4EmDNAPhysics_option7.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4EmDNAPhysics_option8.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4EmDataHandler.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4EmElementSelector.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4EmFluoDirectory.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4EmModelManager.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4EmParameters.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4EmProcessSubType.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4EmSaturation.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4EmSecondaryParticleType.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4EmTableType.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4EnvironmentUtils.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Exception.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ExceptionSeverity.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Exp.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ForceCondition.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4GPILSelection.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4GRSSolid.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4GRSSolid.icc
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4GRSVolume.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4GRSVolume.icc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4GeomSplitter.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4GlobalConfig.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ICRU90StoppingData.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ITNavigator.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ITNavigator2.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ITNavigator2.icc
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4IonFluctuations.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4IonisParamElm.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4IonisParamMat.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Ions.hh
@@ -1196,6 +1257,7 @@ CMakeFiles/chem4.dir/src/PhysicsList.cc.o
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4LogicalVolume.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4LogicalVolume.icc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4LorentzVector.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4LossTableManager.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4MCCIndexConversionTable.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Material.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4MaterialCutsCouple.hh
@@ -1203,30 +1265,56 @@ CMakeFiles/chem4.dir/src/PhysicsList.cc.o
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4MaterialPropertiesTable.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4MaterialPropertyVector.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4MaterialTable.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4MollerBhabhaModel.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4MscStepLimitType.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4NavigationHistory.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4NavigationHistory.icc
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4NavigationHistoryPool.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4NavigationLevel.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4NavigationLevel.icc
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4NavigationLevelRep.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4NavigationLevelRep.icc
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4NavigationLogger.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Navigator.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Navigator.icc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4NistElementBuilder.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4NistManager.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4NistMaterialBuilder.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4NormalNavigation.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4NormalNavigation.icc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4NuclearFormfactorType.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4OrderedTable.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4PDefManager.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4PSTARStopping.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ParameterisedNavigation.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ParameterisedNavigation.icc
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ParticleChange.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ParticleChange.icc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ParticleChangeForGamma.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ParticleChangeForLoss.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ParticleChangeForMSC.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ParticleDefinition.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ParticleDefinition.icc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ParticleMomentum.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ParticleTable.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ParticleTable.icc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ParticleTableIterator.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4PhysicalConstants.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4PhysicsConstructorRegistry.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4PhysicsFreeVector.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4PhysicsListHelper.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4PhysicsListOrderingParameter.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4PhysicsLogVector.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4PhysicsModelCatalog.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4PhysicsTable.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4PhysicsTable.icc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4PhysicsVector.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4PhysicsVector.icc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4PhysicsVectorType.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Poisson.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Positron.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Pow.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ProcessType.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ProductionCuts.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ProductionCutsTable.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Profiler.hh
@@ -1235,9 +1323,19 @@ CMakeFiles/chem4.dir/src/PhysicsList.cc.o
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ReferenceCountedHandle.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Region.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Region.icc
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4RegularNavigation.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ReplicaNavigation.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ReplicaNavigation.icc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4RotationMatrix.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4SafetyHelper.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4SandiaTable.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ShellEMDataSet.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4SmartVoxelHeader.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4SmartVoxelHeader.icc
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4SmartVoxelNode.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4SmartVoxelNode.icc
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4SmartVoxelProxy.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4SmartVoxelProxy.icc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Step.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Step.icc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4StepPoint.hh
@@ -1251,30 +1349,70 @@ CMakeFiles/chem4.dir/src/PhysicsList.cc.o
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Threading.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ThreeVector.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4TouchableHandle.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4TouchableHistory.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4TouchableHistory.icc
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4TouchableHistoryHandle.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Track.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Track.icc
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4TrackState.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4TrackStatus.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4TrackVector.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Transform3D.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4TransportationManager.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4TransportationManager.icc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4Types.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4UIcommand.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4UIdirectory.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4UImessenger.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4UIparameter.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4UItokenNum.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4UnitsTable.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4UnitsTable.icc
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4UniversalFluctuation.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4UrbanMscModel.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VAtomDeexcitation.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VContinuousDiscreteProcess.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VDataSetAlgorithm.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VDiscreteProcess.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VEMDataSet.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VEmAngularDistribution.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VEmFluctuationModel.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VEmModel.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VEmProcess.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VEnergyLossProcess.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VExternalNavigation.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VModularPhysicsList.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VMscModel.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VMultipleScattering.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VPVParameterisation.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VParticleChange.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VParticleChange.icc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VPhysicalVolume.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VPhysicalVolume.icc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VPhysicsConstructor.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VProcess.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VSolid.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VSolid.icc
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VStateDependent.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VTouchable.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VTouchable.icc
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VUPLSplitter.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VUserChemistryList.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VUserPhysicsList.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VUserTrackInformation.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VVolumeMaterialScanner.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VoxelNavigation.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4VoxelNavigation.icc
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4WentzelOKandVIxSection.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4WentzelVIModel.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4eCoulombScatteringModel.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4eIonisation.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4eMultipleScattering.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4hIonisation.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4hMultipleScattering.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ionIonisation.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4ios.hh
+ /home/dthompson/geant4-v11.1.1-install/include/Geant4/G4memory.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/PTL/Globals.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/PTL/Types.hh
  /home/dthompson/geant4-v11.1.1-install/include/Geant4/PTL/Utility.hh

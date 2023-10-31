@@ -107,7 +107,7 @@ G4bool PrimaryGeneratorAction::Notify(G4ApplicationState requestedState)
     G4ParticleDefinition* particle
              = G4ParticleTable::GetParticleTable()->FindParticle("alpha");
     fParticleGun->SetParticleDefinition(particle);
-    fParticleGun->SetParticleEnergy(0*eV);
+    fParticleGun->SetParticleEnergy(5000000*eV);
     fParticleGun->SetParticlePosition(G4ThreeVector());
     fParticleGun->SetParticleMomentumDirection(G4ThreeVector(1,0,0));
   }
